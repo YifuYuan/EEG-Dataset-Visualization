@@ -43,7 +43,7 @@ end
 ## Data Visualization 
 - EEG signal waveform and spectrogram of different sleep stages:  
   - With the help of the Chronux toolbox, using mtsecgramc() function with the proper setup of sampling rate, frequency range, tapers, and moving windows, the spectrograms of EEG signal waveforms can be plotted out.  
-![Different sleep stages](Figures/1cycle.png)
+![Different sleep stages](Figures/different_stages.png)
   - Sampling rate is based on the dataset. Here the sampling rate of the dataset we use is 6000/30s = 200. 
   - Frequency range limits the range of Y-axis for plotting. Since the frequency of the EEG signal during sleep is around 0 to 30Hz, the range of [0 20-50] should work.  
   - The tapers and movingWin are more to do with the resolution of the spectrogram. Larger sample for X-axis, larger values for tapers and movingWin.  
