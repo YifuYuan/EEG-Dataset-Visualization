@@ -5,4 +5,4 @@
 - General information about this dataset: 
   - 3 different subgroups, subgroup3 is collected from 10 healthy subjects.
   - Each dataset for one subject has 6 channels: F3-A2, C3-A2, O1-A2, F4-A1, C4-A1, O2-A1. 
-  
+![My Image](Figures/1cycle.png)
